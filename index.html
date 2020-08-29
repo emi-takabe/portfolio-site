@@ -1,76 +1,164 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>絵美のポートフォリオサイト</title>
-<ilnk rel="stylesheet" href="css/styles.css">
-
-
-<!-- <style>
-  h1 {
-    color: red;
-  }
-</style> -->
-
-  <link rel="icon"href="favicon.ico">
-  <meta name="description" content="絵美のポートフォリオサイトです。">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emi Takabe</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="img/taro.png" width="120" height="120" alt="絵美のアイコンです">
-    <h1>高部絵美</h1>
-    <p>UI/UXデザイナー見習いです</p>
-
-
-
-    <!-- <lavel for="name">名前</lavel> 
-    <input type="text" id="name"> -->
-    <lavel>名前 <input type="text"></lavel>
-    
-
-
-
-    <ul>
-      <li>
-        <a href="https://dotinstall.com" target="_blank">
-          <img src="img/blog.png" width="20" height="20" alt="ブログサイトへのリンク画像です">
-        </a>
-      </li>
-      <li>
-        <a href="https://dotinstall.com" target="_blank">
-        <img src="img/photos.png" width="20" height="20" alt="写真サイトへのリンク画像です">
-        </a>
-      </li>
-    </ul>
+  <div class="container">
+    <div class="header">
+     <h1>Emi Takabe</h1>
+     <div class="header_menu">
+       <nav>
+         <ul>
+           <li><a href="#about">About</a></li>
+           <li><a href="#service">Service</a></li>
+           <li><a href="#works">Works</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+     </div>
+    </div>
+  </div>  
   </header>
-<section>
-  <h1>works</h1>
   
-<section>
-  <img src="img/work1.png" width="400" height="260" alt="勇者ゲームの紹介画像">
-  <h1>勇者ゲーム</h1>
-  <p>楽しいアプリです。</p>
-</section>
+  <main>
+   <div class="container">
+     <section id="about">
+       <h2 class="title">About</h2>
+       <div class="about__area">
+         <div class="about__area-img">
+          <img src="img/profile.jpg" alt="">
+         </div>
+         <div class="about__area-decription">
+          <div class="about__decription-text text">
+            プログラミングを勉強し続けています。
+            2019年の秋頃にヒューマンアカデミーで
+            javaプログラミングコースを半年間かけてJavaを習得し、
+            progate等のサイトで独学で基本言語のHTMLやCSSJavaScript
+            を学びました。
+          </div>
+          <div class="about__area-decription-icon">
+            <a href="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="blog">
+              <i class="fas fa-rss"></i>  
+            </a>
+          </div>
+         </div>
+       </div>
+     </section> 
 
-<section>
-  <img src="img/work2.png" width="400" height="260" alt="宝探しゲームの紹介画像">
-  <h1>宝探しゲーム</h1>
-  <p>楽しいアプリです。</p>
-</section>
-  
- <section>
-  <img src="img/work3.png" width="400" height="260" alt="神経衰弱ゲームの紹介画像">
-  <h1>神経衰弱ゲーム</h1>
-  <p>楽しいアプリです。</p>
- </section>
-  
-</section>
+     <section id="service">
+       <h2 class="title">Service</h2>
+      <div class="row">
+         <div class="col-wd-4 col-xs-12">
+          <h3>Coodng</h3>
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <p class="text">
+            HTML,CSS,Javascript,PHP,javaの
+            プログラミング、コーディングが可
+            能です。誰もが読みやすいコーディ
+            ングを心掛けています。
+          </p>
+         </div>
+         <div class="col-wd-4 col-xs-12">
+          <h3>Design</h3>
+          <div class="service-icon">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+          <p class="text">
+            YouTubeやブログのサムネイルや企業ロゴの制作が可能です。
+          </p>
+        </div>
+        <div class="col-wd-4 col-xs-12">
+          <h3>Movie</h3>
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <p class="text">
+            YouTubeの構成、運営、編集をしている経験があります。
+          </p>
+        </div>
+      </div>
+     </section>
+     <section id="works">
+      <h2 class="title">Works</h2>
+      <div class="row">
+         <div class="col-wd-4 col-xs-12">
+          <img src="img/works/Adobexd.jpg" alt="">
+         </div>
+         <div class="col-wd-4 col-xs-12">
+          <img src="img/works/bootstrap.jpg" alt="">
+        </div>
+        <div class="col-wd-4 col-xs-12">
+          <img src="img/works/devtools.jpg" alt="">
+          <div class="col-wd-4 col-xs-12">
+            <img src="img/works/Adobexd.jpg" alt="">
+           </div>
+           <div>
+          <div class="col-wd-4 col-xs-12">
+            <img src="img/works/devtools.jpg" alt="">  ]
+      </div>
+      </div>   class="col-wd-4 col-xs-12">
+            <img src="img/works/bootstrap.jpg" alt="">
+          </div
+     </section>
 
 
-<footer>
-  <p>(c) dotinstall.com </p>
-</footer>
+    <section id="contact">
+     <h2 class="title">Contact</h2>
+     <div class="form">
+       <!-- class, action, methodを変更しないでください -->
+<form class="formrun" action="https://form.run/api/v1/r/iilekllq185z9u1qffn6xpbu" method="post">
+  <!-- ↓自由に要素を追加・編集することができます -->
+  <div class="form_content">
+    <label>お名前</label>
+    <input name="お名前" type="text">
+  </div>
+
+  <div>
+    <label>メールアドレス [必須]</label>
+    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+  </div>
+
+  <div class="form_content">
+    <label>お問い合わせ [必須]</label>
+    <textarea rows=10 name="お問い合わせ" data-formrun-required></textarea>
+    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+  </div>
+
+  <!-- ボット投稿をブロックするためのタグ -->
+  <div class="_formrun_gotcha">
+    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+  </div>
+
+  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+</form>
+
+     </div>
+    </section>
+   </div>
+  </main>
+
+  <footer>
+   &copy;2021 takabe emi
+  </footer>
 </body>
 </html>
-      
-  
